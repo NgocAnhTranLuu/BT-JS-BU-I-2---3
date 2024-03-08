@@ -1,0 +1,33 @@
+h2, #txtB1, #txtB2, #txtB3, #txtB4, #txtB5, #btnB1, #btnB2, #btnB3, #btnB4, #btnB5{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+h2{
+    font-size: 28px;
+    background-color: rgb(218, 245, 255);
+    color: rgb(0, 56, 176);
+    border: solid 2px rgb(0, 56, 176);
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+#txtB1, #txtB2, #txtB3, #txtB4, #txtB5{
+    font-size: 16px;
+    background-color: rgb(218, 245, 255);
+    color: rgb(0, 56, 176);
+    margin-top: 20px;
+}
+
+#btnB1, #btnB2, #btnB3, #btnB4, #btnB5{
+    font-size: 16px;
+}
+
+span{
+    color: rgb(0, 56, 176);
+    font-style: italic;
+    font-size: 14px;
+}
