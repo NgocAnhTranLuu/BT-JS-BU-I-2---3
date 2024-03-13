@@ -25,13 +25,15 @@
             <div>
                 <h2>B1: TÍNH LƯƠNG NHÂN VIÊN</h2>
             </div>
-            <div class="form-group">
-                <label for="luongNgay">Lương 1 ngày</label>
-                <input type="number" class="form-control" id="luongNgay" value="100000">
-            </div>
-            <div class="form-group">
-                <label for="ngayLam">Số ngày làm việc</label>
-                <input type="number" class="form-control" id="ngayLam" value="10">
+            <div class="row">
+                <div class="col-6 form-group">
+                    <label for="luongNgay">Lương 1 ngày</label>
+                    <input type="number" class="form-control" id="luongNgay" placeholder="100000">
+                </div>
+                <div class="col-6 form-group">
+                    <label for="ngayLam">Số ngày làm việc</label>
+                    <input type="number" class="form-control" id="ngayLam" placeholder="10">
+                </div>
             </div>
 
             <button id="btnB1" type="button" class="btn btn-primary">Tính tiền lương</button>
@@ -40,6 +42,7 @@
         </form>
     </div>
 
+    <hr>
 
     <!-- B2: TÍNH GIÁ TRỊ TRUNG BÌNH -->
     <div class="container w-50">
@@ -47,29 +50,31 @@
             <div>
                 <h2>B2: TÍNH GIÁ TRỊ TRUNG BÌNH</h2>
             </div>
-            <div class="form-group">
-                <label for="so1">Số thứ nhất</label>
-                <input type="number" class="form-control" id="so1" value="123">
-            </div>
+            <div class="row">
+                <div class="col-4 form-group">
+                    <label for="so1">Số thứ nhất</label>
+                    <input type="number" class="form-control" id="so1" placeholder="123">
+                </div>
 
-            <div class="form-group">
-                <label for="so2">Số thứ hai</label>
-                <input type="number" class="form-control" id="so2" value="123">
-            </div>
+                <div class="col-4 form-group">
+                    <label for="so2">Số thứ hai</label>
+                    <input type="number" class="form-control" id="so2" placeholder="123">
+                </div>
 
-            <div class="form-group">
-                <label for="so3">Số thứ ba</label>
-                <input type="number" class="form-control" id="so3" value="123">
-            </div>
+                <div class="col-4 form-group">
+                    <label for="so3">Số thứ ba</label>
+                    <input type="number" class="form-control" id="so3" placeholder="123">
+                </div>
 
-            <div class="form-group">
-                <label for="so4">Số thứ tư</label>
-                <input type="number" class="form-control" id="so4" value="123">
-            </div>
+                <div class="col-4 form-group">
+                    <label for="so4">Số thứ tư</label>
+                    <input type="number" class="form-control" id="so4" placeholder="123">
+                </div>
 
-            <div class="form-group">
-                <label for="so5">Số thứ năm</label>
-                <input type="number" class="form-control" id="so5" value="123">
+                <div class="col-4 form-group">
+                    <label for="so5">Số thứ năm</label>
+                    <input type="number" class="form-control" id="so5" placeholder="123">
+                </div>
             </div>
 
             <button id="btnB2" type="button" class="btn btn-primary">Tính giá trị Trung Bình</button>
@@ -78,6 +83,7 @@
         </form>
     </div>
 
+    <hr>
 
     <!-- B3: QUY ĐỔI TIỀN TỆ -->
     <div class="container w-50">
@@ -87,7 +93,7 @@
             </div>
             <div class="form-group">
                 <label for="usd">Tiền USD</label>
-                <input type="number" class="form-control" id="usd" value="10">
+                <input type="number" class="form-control" id="usd" placeholder="10">
             </div>
 
             <button id="btnB3" type="button" class="btn btn-primary">Quy đổi tỉ giá</button>
@@ -96,19 +102,23 @@
         </form>
     </div>
 
+    <hr>
+
     <!-- B4: TÍNH DIỆN TÍCH VÀ CHU VI HCN -->
     <div class="container w-50">
         <form>
             <div>
                 <h2>B4: TÍNH DIỆN TÍCH VÀ CHU VI HCN</h2>
             </div>
-            <div class="form-group">
-                <label for="chDai">Chiều dài</label>
-                <input type="number" class="form-control" id="chDai" value="10">
-            </div>
-            <div class="form-group">
-                <label for="chRong">Chiều rộng</label>
-                <input type="number" class="form-control" id="chRong" value="6">
+            <div class="row">
+                <div class="col-6 form-group">
+                    <label for="chDai">Chiều dài</label>
+                    <input type="number" class="form-control" id="chDai" placeholder="10">
+                </div>
+                <div class="col-6 form-group">
+                    <label for="chRong">Chiều rộng</label>
+                    <input type="number" class="form-control" id="chRong" placeholder="6">
+                </div>
             </div>
 
             <button id="btnB4" type="button" class="btn btn-primary">Tính Diện tích và Chu vi Hình Chữ Nhật</button>
@@ -117,7 +127,8 @@
         </form>
     </div>
 
-
+    <hr>
+    
     <!-- B5: TÍNH TỔNG 2 KÝ SỐ -->
     <div class="container w-50">
         <form>
@@ -127,7 +138,7 @@
             <div class="form-group">
                 <label for="so2Ky">Số có 2 ký số</label>
                 <span>(Nếu nhập khác số có 2 chữ số, sẽ sai kết quả.)</span>
-                <input type="number" class="form-control" id="so2Ky" value="10">
+                <input type="number" class="form-control" id="so2Ky" placeholder="10">
             </div>
 
             <button id="btnB5" type="button" class="btn btn-primary">Tổng 2 ký số</button>

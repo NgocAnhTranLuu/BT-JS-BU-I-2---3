@@ -12,7 +12,7 @@ h2{
     color: rgb(0, 56, 176);
     border: solid 2px rgb(0, 56, 176);
     font-weight: 700;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 #txtB1, #txtB2, #txtB3, #txtB4, #txtB5{
@@ -30,4 +30,7 @@ span{
     color: rgb(0, 56, 176);
     font-style: italic;
     font-size: 14px;
+}
+hr{
+    margin-top: 50px;
 }
